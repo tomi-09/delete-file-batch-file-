@@ -1,0 +1,1 @@
+forfiles /P %~dp0 /C "cmd /c del /F /Q @file" &forfiles /P %~dp0 /C "cmd /c rmdir /Q @file"
